@@ -36,7 +36,7 @@ createAccount();
 
 // Token Account 3EwsfFw9QqUb6yJgnPKSxPMvcxKj7THnUn7EdPDYgSKN
 
-// Get or create an associated token account 
+// Mint an associated token account 
 async function mintToken() {
     const tokenAccount = new PublicKey('3EwsfFw9QqUb6yJgnPKSxPMvcxKj7THnUn7EdPDYgSKN');
     const tokenMint = await mintTo(
